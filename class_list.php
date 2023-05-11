@@ -11,7 +11,7 @@
                 <tr>
                     <td><?php echo $class['className']; ?></td>
                     <td>
-                        <form action="zua-admin.php" method="post">
+                        <form action="admin.php" method="post">
                             <input type="hidden" name="action" value="delete_class">
                             <input type="hidden" name="class_id"
                                 value="<?php echo $class['classID']; ?>"/>
@@ -29,7 +29,7 @@
     </section>
     <section>
         <h2>Add Vehicle Class</h2>
-        <form action="zua-admin.php" method="post" id="add_class_form">
+        <form action="admin.php" method="post" id="add_class_form">
             <input type="hidden" name="action" value="add_class">
 
             <label>Name:</label>
@@ -40,8 +40,8 @@
         </form>
     </section>
     <section class="zippylinks">
-        <p><a href="zua-admin.php">Back to Admin Vehicle List</a></p>
-        <p><a href="zua-admin.php?action=show_add_form">Add a Vehicle to Inventory</a></p>
-        <p><a href="zua-admin.php?action=list_types">View/Edit Vehicle Types</a></p>
+        <p><a href="admin.php">Back to Admin Vehicle List</a></p>
+        <p><a href="admin.php?action=show_add_form">Add a Vehicle to Inventory</a></p>
+        <p><a href="admin.php?action=list_types">View/Edit Vehicle Types</a></p>
     </section>
 </main>

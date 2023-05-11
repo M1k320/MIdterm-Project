@@ -11,7 +11,7 @@
                 <tr>
                     <td><?php echo $type['typeName']; ?></td>
                     <td>
-                        <form action="zua-admin.php" method="post">
+                        <form action="admin.php" method="post">
                             <input type="hidden" name="action" value="delete_type">
                             <input type="hidden" name="type_id"
                                 value="<?php echo $type['typeID']; ?>"/>
@@ -29,7 +29,7 @@
     </section>
     <section>
         <h2>Add Vehicle Type</h2>
-        <form action="zua-admin.php" method="post" id="add_type_form">
+        <form action="admin.php" method="post" id="add_type_form">
             <input type="hidden" name="action" value="add_type">
 
             <label>Name:</label>
@@ -40,8 +40,8 @@
         </form>
     </section>
     <section class="zippylinks">
-        <p><a href="zua-admin.php">Back to Admin Vehicle List</a></p>
-        <p><a href="zua-admin.php?action=show_add_form">Add a Vehicle to Inventory</a></p>
-        <p><a href="zua-admin.php?action=list_classes">View/Edit Vehicle Classes</a></p>
+        <p><a href="admin.php">Back to Admin Vehicle List</a></p>
+        <p><a href="admin.php?action=show_add_form">Add a Vehicle to Inventory</a></p>
+        <p><a href="admin.php?action=list_classes">View/Edit Vehicle Classes</a></p>
     </section>
 </main>
