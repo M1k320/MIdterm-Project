@@ -38,7 +38,7 @@
         $types = get_types();
         $classes = get_classes();
         $makes = get_makes();
-        include('zua_vehicle_list.php');
+        include('vehicle_list.php');
         include('view/footer.php');
     } else if ($action == 'list_types') {
         $types = get_types();
