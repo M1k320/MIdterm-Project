@@ -1,10 +1,5 @@
 <?php
-    //local development server connection
-   // $dsn = 'mysql:host=localhost;dbname=zippyusedautos';
-   // $username = 'root';
-    //$password = 'pa55word';
 
-    // Heroku connection
     
     $dsn = "mysql:host=localhost; dbname=zippyusedauto";
     $username = 'hu0wlnc966uyzjy4';
