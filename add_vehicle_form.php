@@ -1,7 +1,7 @@
 <?php include 'view/header-admin.php'; ?>
 <main>
     <h2>Add Vehicle</h2>
-    <form action="zua-admin.php" method="post" id="add_vehicle_form">
+    <form action="admin.php" method="post" id="add_vehicle_form">
         <input type="hidden" name="action" value="add_vehicle">
 
         <label>Type:</label>
@@ -38,8 +38,8 @@
         <input type="submit" value="Add Vehicle" class="button blue"><br>
     </form>
     <section class="zippylinks">
-        <p><a href="zua-admin.php">Back to Admin Vehicle List</a></p>
-        <p><a href="zua-admin.php?action=list_types">View/Edit Vehicle Types</a></p>
-        <p><a href="zua-admin.php?action=list_classes">View/Edit Vehicle Classes</a></p>
+        <p><a href="admin.php">Back to Admin Vehicle List</a></p>
+        <p><a href="admin.php?action=list_types">View/Edit Vehicle Types</a></p>
+        <p><a href="admin.php?action=list_classes">View/Edit Vehicle Classes</a></p>
     </section>
 </main>

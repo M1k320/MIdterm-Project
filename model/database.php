@@ -6,7 +6,7 @@
 
     // Heroku connection
     
-    $dsn = "mysql:host=localhost; dbname=todolist";
+    $dsn = "mysql:host=localhost; dbname=zippyusedauto";
     $username = 'hu0wlnc966uyzjy4';
     $password = 'cmtbdgfv39s2i8o1';
     
@@ -14,7 +14,7 @@
         $db = new PDO($dsn, $username, $password);
     } catch (PDOException $e) {
         $error_message = $e->getMessage();
-        include('../errors/database_error.php');
+        include('database_error.php');
         exit();
     }
 ?>
